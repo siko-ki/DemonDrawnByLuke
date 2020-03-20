@@ -8,3 +8,16 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+
+import mock from './mock-data.js'
+
+let data = {
+  products: mock,
+  cart: []
+}
+
+new Vue({
+  router,
+  data,
+  render: h => h(App)
+}).$mount('#app')
