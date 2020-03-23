@@ -10,7 +10,9 @@
       </div>
     </div>
     <ProductList :products="products" />
+    <a href="https://www.github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-jlund16"> github</a>
   </div>
+
 </template>
 
 <script>
