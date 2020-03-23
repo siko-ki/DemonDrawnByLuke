@@ -9,28 +9,28 @@ let mock = [{
     id: 2,
     name: "Cthulhu HeadShot - Print",
     price: "$2.41",
-    country: "Brazil",
+    medium: "Digital",
     image: "Cthulhu HeadShot - Print.png"
   },
   {
     id: 3,
     name: "Demon and the Witch",
     price: "$5.92",
-    country: "United States",
+    medium: "Digital",
     image: 'Demon and the Witch.png'
   },
   {
     id: 4,
     name: "Demon Close Up #1",
     price: "$3.58",
-    country: "United States",
+    medium: "Digital",
     image: 'Demon Close-Up 1.png'
   },
   {
     id: 5,
     name: "Demon Close-Up #2",
     price: "$2.47",
-    country: "Canada",
+    medium: "Digital",
     image: 'Demon Close Up 2.png'
 
   },
@@ -38,28 +38,28 @@ let mock = [{
     id: 6,
     name: "Demonic Fire Elemental",
     price: "$8.77",
-    country: "Brazil",
+    medium: "Digital",
     image: 'Demonic Fire Elemental.png'
   },
   {
     id: 7,
     name: "Demonic D20",
     price: "$9.24",
-    country: "Brazil",
+    medium: "Digital",
     image: 'Demonic_D20.png'
   },
   {
     id: 8,
     name: "Enraged Goblin",
     price: "$3.02",
-    country: "Canada",
+    medium: "Painted",
     image: 'Enraged Golblin.png'
   },
   {
     id: 9,
     name: "Flirty Goon",
     price: "$4.76",
-    country: "Brazil",
+    medium: "Painted",
     image: 'Flirty Goon.png'
 
   },
@@ -67,91 +67,84 @@ let mock = [{
     id: 10,
     name: "Four Eyes",
     price: "$2.50",
-    country: "Brazil",
+    medium: "Painted",
     image: 'Four Eyes.png'
-  },
-  {
-    id: 11,
-    name: "Grateful Dead - Live in Paris 72",
-    price: "$6.70",
-    country: "United States",
-    image: "Grateful Dead - LIve Paris 72 - Event Poster - Print.pdf"
   },
   {
     id: 12,
     name: "Laser-Eyed Cyclops",
     price: "$1.14",
-    country: "Canada",
+    medium: "Painted",
     image: "Laser-Eyed Cyclops.png"
   },
   {
     id: 13,
     name: "Neck Horns",
     price: "$6.92",
-    country: "Brazil",
+    medium: "Painted",
     image: "Neck Horns.png"
   },
   {
     id: 14,
     name: "Possessed Neanderthal",
     price: "$5.36",
-    country: "Mexico",
+    medium: "Painted",
     image: "Possessed Neanderthal.png"
   },
   {
     id: 15,
     name: "Six-Eye-Gaze",
     price: "$4.18",
-    country: "United States",
+    medium: "Painted",
     image: "Six-Eye-Gaze - Sparkles - Sticker.png"
   },
   {
     id: 16,
     name: "Slug",
     price: "$9.18",
-    country: "Mexico",
+    medium: "Painted",
     image: "Slug.png"
   },
   {
     id: 17,
     name: "Smoking At The Mouth",
     price: "$4.73",
-    country: "Brazil",
+    medium: "Painted",
     image: "Smoking at the Mouth.png"
   },
   {
     id: 18,
     name: "Sour Straws Elemental",
     price: "$5.16",
-    country: "Canada",
+    medium: "Painted",
     image: "Sour Straws Elemental.png"
   },
   {
     id: 19,
     name: "Space Goons",
     price: "$6.81",
-    country: "United States",
+    medium: "Painted",
     image: "Space Goons.png"
   },
   {
     id: 20,
     name: "The Soul Taker",
     price: "$8.62",
-    country: "United States",
+    medium: "Painted",
     image: "The Soul Taker.png"
   },
   {
     id: 21,
     name: "The Wizard Vortex",
     price: "$3.16",
-    country: "United States",
+    medium: "Digitized",
     image: "The Wizard Vortex - Original Artwork .png"
   },
   {
     id: 22,
     name: "Whisper",
     price: "$9.41",
-    country: "Brazil",
+    medium: "Original",
     image: "Whisper.png"
   }
 ]

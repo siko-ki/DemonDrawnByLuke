@@ -2,10 +2,10 @@
     <div>
         <div class="pure-menu pure-menu-horizontal">
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a @click="select('United States')" href="#" class="pure-menu-link">United States</a></li>
-                <li class="pure-menu-item"><a @click="select('Canada')" href="#" class="pure-menu-link">Canada</a></li>
-                <li class="pure-menu-item"><a @click="select('Mexico')" href="#" class="pure-menu-link">Mexico</a></li>
-                <li class="pure-menu-item"><a @click="select('Brazil')" href="#" class="pure-menu-link">Brazil</a></li>
+                <li class="pure-menu-item"><a @click="select('Digital')" href="#" class="pure-menu-link">Digital</a></li>
+                <li class="pure-menu-item"><a @click="select('Digitized')" href="#" class="pure-menu-link">Digitized</a></li>
+                <li class="pure-menu-item"><a @click="select('Painted')" href="#" class="pure-menu-link">Painted</a></li>
+                <li class="pure-menu-item"><a @click="select('Original')" href="#" class="pure-menu-link">Original</a></li>
             </ul>
         </div>
         <ProductList :products="products" />
@@ -20,17 +20,17 @@
         },
         data() {
             return {
-                country: '',
+                medium: '',
             }
         },
         computed: {
             products() {
-                return this.$root.$data.products.filter(product => product.country == this.country);
+                return this.$root.$data.products.filter(product => product.medium == this.medium);
             }
         },
         methods: {
-            select(country) {
-                this.country = country;
+            select(medium) {
+                this.medium = medium;
             }
         }
     }

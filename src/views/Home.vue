@@ -1,14 +1,17 @@
 <template>
+
   <div>
-    <div class="wrapper">
-      <div class="search">
-        <form class="pure-form">
-          <i class="fas fa-search"></i><label>
-          <input v-model="searchText" />
-        </label>
-        </form>
-      </div>
-    </div>
+    <p> blabh</p>
+
+<!--    <div class="wrapper">-->
+<!--      <div class="search">-->
+<!--        <form class="pure-form">-->
+<!--          <i class="fas fa-search"></i><label>-->
+<!--          <input v-model="searchText" />-->
+<!--        </label>-->
+<!--        </form>-->
+<!--      </div>-->
+<!--    </div>-->
     <ProductList :products="products" />
     <a href="https://www.github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-jlund16"> github</a>
   </div>

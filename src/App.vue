@@ -1,12 +1,13 @@
 <template>
+  <div class="bg">
   <div id="app">
     <div id="menu">
       <div id="brand">
-        <router-link to="/">
+        <router-link to="/home">
           <img src="/images/DEMONDRAWNLOGO.png">
         </router-link>
       </div>
-      <div id="side">
+      <router-view id="side">
         <router-link to="/browse">
           <div class="menu-item browse">
             <img src="/images/globe.png">
@@ -20,9 +21,9 @@
             <p v-else> 0 Items </p>
           </div>
         </router-link>
-      </div>
+      </router-view>
     </div>
-    <router-view />
+  </div>
   </div>
 </template>
 
@@ -44,6 +45,18 @@
   body {
     margin: 50px 100px;
 
+  }
+  .bg {
+    /* The image used */
+    background-image: url("/images/Cthulhu HeadShot - Print.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #menu {

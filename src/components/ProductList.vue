@@ -59,7 +59,7 @@
     }
     .item {
         padding: 0.75em 0.5em;
-        border-top: 1px solid #ddd;
+        border-top: 1px solid #cccccc;
         overflow-y: hidden;
         display: flex;
     }
