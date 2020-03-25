@@ -49,13 +49,6 @@ let mock = [{
     image: 'Demonic_D20.png'
   },
   {
-    id: 8,
-    name: "Enraged Goblin",
-    price: "$3.02",
-    medium: "Painted",
-    image: 'Enraged Golblin.png'
-  },
-  {
     id: 9,
     name: "Flirty Goon",
     price: "$4.76",
